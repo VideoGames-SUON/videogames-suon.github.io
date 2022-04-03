@@ -1,188 +1,44 @@
 <!DOCTYPE html>
 <html>
 <head>
-	
-	<link rel="stylesheet" href="TT.css">
-	
-	<title>twice</title>
+	<title>assignment</title>
+	<script src="as2.js"></script>
 </head>
-
 <body>
-	<a name="top"></a>
+Yifei :
 
-
-<div class="topnav">
-
-	<a href="index.html">Twice</a>
-	<a href="FS.html">Twice Members</a>
-	<a href="MM.html">Twice MV</a> 
-
-</div>
-	
-	
-
-<h1><i>TWICE</i></h1><br>
-
-	<hr class="one"><br>
-	<hr class="two"><br>
-
-
-	
-
-<h3>
-		- What is TWICE? -<br><br>
-		- Discography - <br><br>
-		- Concerts and tours -<br><br>
-</h3>
-
-
-	<hr class="three">
-	<br><br><br><br>
-
-	
-
-
-	<p class="four">Hi, there. Are you new to the Kpop world? Or are you interested in music groups? If yes, then you might want to learn about a famous girl group - TWICE.</p>
-	<br><br><br><br>
-	
-	
-
-
-	<img id="five" src="https://cdn.filestackcontent.com/E1qcnLWbSM2AQBQTPItv/convert?cache=true&crop=0%2C825%2C2000%2C1000&crop_first=true&quality=90&w=1920"> 
+<!--2.image change-->
+<h4>2.mouse over to change the image:<h4>
+	<img id="img" onmouseover= "MoverCimg()" width="600px" hight="400px" src="https://wallpapercave.com/wp/wp7891594.jpg">
 	<br><br><br>
+
+<!--3.Changing text-->
+<h4>3. click the paragraph to chage its content<h4>
+	<p id="para" onclick="paraC()"> This is a long paragraph. </p>
+
+<!--4. keyboard alert box-->
+<h4>4. press any key to have an interesting alert box</h4>
+
+<!--5. make three changes at the same time to the paragraph-->
+<h4>5. make three changes at the same time to the paragraph</h4>
+<p id="thc">I am also a very long paragraph</p>
+<button onclick="tc()">click here to make three changes </button>
 <br>
-	
 
+<!--6. 20 degrees Fahrenheit to Celsius-->
+<h4>6. 20 degrees Fahrenheit to Celsius</h4>
+<h1 id= "twoFC" onclick="cal()" >20 degrees Fahrenheit = ? Celsius </h1>
+<button onclick="cal()">click here to see the result </button>
 
+<!--7. calculator-->
+<h4>7. calculator</h4>
+Sum: 
+<button onclick="cal2()" id="cal3">Click here to get a sum claculator</button>
 
-<h2 class="six">What is TWICE?</h2>
-	<br>
-
-	
-	<ul>
-		<li>Twice is a South Korean girl group formed by JYP Entertainment. TWICE debuted on October 20, 2015. </li>
-		<br><br>
-		<li> The group is composed of nine members: Nayeon, Jeongyeon, Momo, Sana, Jihyo, Mina, Dahyun, Chaeyoung, and Tzuyu. </li>
-		<br><br>
-		 <li>The group name (TWICE) was created by JYP director Park Jin-young, and it means that the members will be able to "surprise their fans through their ears for the first time and through their ears for the second time". through his eyes." </li>
-		 <br><br>
-		<li> By the end of 2021, Twice had sold over 7.29 million albums in Korea in 2019. As of December 2020, the group has sold over 10 million albums in South Korea and Japan.</li>
-	</ul>
-	<br><br><br>
-
-
-<h2>Discography</h2><br><br>
-
-
-
-	<table>
-		<tr>
-			<th class="eighteen">Korean albums</th>
-			<th >Twicetagram (2017)</th>
-			<th>Eyes Wide Open (2020)</th>
-			<th> Formula of Love: O+T=<3 (2021)</th>
-		</tr>
-		<tr>
-			<td class="eighteen">Japanese albums</td>
-			<td >BDZ (2018)</td>
-			<td> &Twice (2019)</td>
-			<td>Perfect World (2021)</td>
-		</tr>
-	</table>
-	<br><br><br>
-
-	
-
-	<div class="twlve">
-		<img class="nine" src="https://pbs.twimg.com/media/EFIsPEXUYAAEwy4.jpg"> 
-		<img class="nine" src="https://i.pinimg.com/originals/cb/91/96/cb91960600b73e0b76e42f8286c9c171.jpg">
-		<img class="nine" src="https://static.wikia.nocookie.net/kpop/images/8/88/TWICE_More_%26_More_digital_album_cover.png/revision/latest?cb=20200602194129" >
-	</div>
-
-	<div class="twlve">
-		<img class="nine" src="https://pm1.narvii.com/6463/9b6e649a11dac0076930761f000f759beb840a2f_hq.jpg" > 
-		<img class="nine" src="https://www.allkpop.com/upload/2018/07/content/twice_1531063544_Dhl2M9WUwAUv3oE.jpg"> 
-		<img class="nine" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/99c08eac-1777-4459-81b0-341be2da5190/dbh4962-84b6b641-c333-4212-ac89-f1d9cf2addf8.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzk5YzA4ZWFjLTE3NzctNDQ1OS04MWIwLTM0MWJlMmRhNTE5MFwvZGJoNDk2Mi04NGI2YjY0MS1jMzMzLTQyMTItYWM4OS1mMWQ5Y2YyYWRkZjguanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.cRmtOYV8IDEHNyMt4AjrCaJzi_usTrpoxyJja-_7xS4"> 
-	</div>
-
-	<div class="twlve">
-		<img class="nine" src="http://st.cdjapan.co.jp/pictures/l/08/25/WPCL-13299.jpg" > 
-		<img class="nine" src="https://i.scdn.co/image/ab67616d0000b273c11578f0d39a2d639a92046d" > 
-		<img class="nine" src="https://lh3.googleusercontent.com/9c5Mxv_W8bhXb2aGIyP1qLsBfIRpfsQqDxsQo1KWYs_JE7v5bY08Mp7AKTi6qHiMF4PWQXde4EZbd5gHdBR5SnW3BN6eWCPx=w960-rj-nu-e365" > 
-	</div>
-	<br><br><br>
-
-
-	
-	
-
-
-<h2>Concerts and tours</h2><br>
-		
-	
-	<hr class="three"><br>
-
-	
-	<p class="four">
-		Twice 1st Tour: Twiceland – The Opening (2017)<br><br>
-		Twice Debut Showcase "Touchdown in Japan" (2017)<br><br>
-		Twice Showcase Live Tour 2018 "Candy Pop" (2018)<br><br>
-		Twice 2nd Tour: Twiceland Zone 2 – Fantasy Park (2018)<br><br>
-		Twice 1st Arena Tour 2018 "BDZ" (2018)<br><br>
-		Twice Dome Tour 2019 "#Dreamday" (2019)<br><br>
-		Twice World Tour 2019 "Twicelights" (2019–2020)<br><br>
-		Twice 4th World Tour "III" (2021–2022)<br><br>
-	</p>
-
-	
-	<hr class="three">
-	<br><br><br><br>
-
-
-	<img id="twenty2" src="https://i.pinimg.com/736x/e5/61/c4/e561c470a3437da018a631aaf92f670b.jpg">
-
-
-	<br><br><br><br>
-
-
-	
-<!--end-->
-
-
-<hr class="two">
-
-
-<br><br><br>
-
-
-	<hr class="one">
-	<br><br><br><br><br><br>
-
-
-
-	<a href="https://twice.jype.com/"><h2>TWICE official website</h2></a>
-	<br><br><br><br><br>
-
-
-
-	<img id="fourteen" src="https://logos-world.net/wp-content/uploads/2021/11/TWICE-Logo.png"> 
-
-	<br>
-
-
-
-	<a id="seventeen" href="#top">Back to top </a>
-	<br>
-
-
+<!--7. Name-->
+<h4>8. What is your name?</h4>
+<button onclick="name3()" id="wname">what is your name?</button>
 
 
 </body>
 </html>
-
-
-
-
-
-
-

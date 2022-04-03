@@ -1,35 +1,51 @@
+/*1. pop-up window*/
+alert(Date());
 
-//Yifei's code//
-
-//title image//
-function surp() {
-	document.getElementById('nani').src= "https://metro.co.uk/wp-content/uploads/2019/02/rainbow-six-siege-new-dcc9.jpg?quality=90&strip=all&crop=0px%2C17px%2C1080px%2C567px&resize=1200%2C630"
+/*2.image change*/
+function MoverCimg(){
+	document.getElementById('img').src = "https://s1.ticketm.net/dam/a/8a1/8cd0fadf-6058-4da5-8831-b4414cdc68a1_1558811_TABLET_LANDSCAPE_LARGE_16_9.jpg";
 }
 
-function uiu(){
-	document.getElementById('nani').src="https://cdn1.epicgames.com/undefined/offer/R6S_Logo_Color_1000x375-1000x375-8e2b21c06400f36fae8d6a6695cd7155.png?h=854&resize=1&w=640"
+/*3.paragraph change*/
+function paraC(){
+	document.getElementById('para').innerHTML = "New ~(^V^)~";
 }
 
-//gif.//
-function ash(){
-	document.getElementById('12').src = "https://i.imgur.com/Dnb6XXB.jpg"
+/*4.key alert*/
+function key() {  
+  alert("Hi");  
+}
+document.onkeydown = key;
+
+/*5.three changes*/
+function tc(){
+	var cha = document.getElementById('thc').style; 
+	cha.backgroundColor= "orange";
+	cha. fontFamily = "arial";
+	cha.textAlign= "center";
 }
 
-//operators image//
-function midori() {
-	document.getElementById('kowaii').src ="https://thumbs.gfycat.com/IncompatibleZealousAlbino-max-1mb.gif"
-} 
-
-//Hibana//
-function hibana(){
-	document.getElementById('hiban').src="https://thumbs.gfycat.com/AffectionateFearfulAidi-size_restricted.gif"
+/*6.temp changes*/
+function cal(){
+	document.getElementById('twoFC').innerHTML = "-6.66667";
 }
 
-function not(){
-	document.getElementById('hiban').src="https://i.pinimg.com/originals/6c/a5/14/6ca514da4118659c6fc102757c76c2c1.gif"
+/*7. calculator*/
+function cal2(){
+	var n1 = parseInt(prompt("enter a number")); 
+	var n2 = parseInt(prompt("enter another number")); 
+	document.getElementById('cal3').innerHTML = n1 + n2;
 }
 
-//End of Yifei's code//
+
+/*8. Name*/
+function name3(){
+	var fN = prompt("what is your first name?"); 
+	var lN = prompt("what is your last name? ");  
+	alert("Nice to see you"+ " " + fN + " "+lN  )
+}
+
+
 
 
 
